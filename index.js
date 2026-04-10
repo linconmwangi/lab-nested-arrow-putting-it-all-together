@@ -22,7 +22,7 @@ function createLoginTracker(){
       return "Login Failed"
     }
   }
-      return loginTracker
+    loginTracker()
 }
 let loginTest = createLoginTracker()
  
